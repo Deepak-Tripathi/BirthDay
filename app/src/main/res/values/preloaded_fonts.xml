@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/aladin</item>
+        <item>@font/alike</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/princess_sofia</item>
+        <item>@font/sofia</item>
+    </array>
+</resources>

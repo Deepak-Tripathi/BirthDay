@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+    <ViewFlipper
+        android:id="@+id/last_flip1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_weight="2.5"
+        android:elevation="5dp"
+        android:flipInterval="5000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F4C3"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="@string/Quote2"
+            android:textColor="#A52A2A"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F4C3"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="@string/Quote3"
+            android:textColor="#A52A2A"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F4C3"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="@string/Quote4"
+            android:textColor="#A52A2A"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ActivityFive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F4C3"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="@string/bye"
+            android:textColor="#A52A2A"
+            android:textSize="25sp" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/last_flip2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:elevation="5dp"
+        android:flipInterval="6667">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sahil8"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sahil9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sahil10" />
+
+
+
+    </ViewFlipper>
+
+
+</LinearLayout>
